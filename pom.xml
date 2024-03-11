@@ -197,9 +197,9 @@
     </build>
 	
 
-  <build>
-    <plugins>
-        <plugin>
+    <build>
+        <plugins>
+          <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
             <version>0.8.7</version>
@@ -218,9 +218,9 @@
                     </goals>
                 </execution>
             </executions>
-        </plugin>
-    </plugins>
-  </build>	
+          </plugin>
+       </plugins>
+    </build>	
     <reporting>
     <plugins>
       <plugin>
